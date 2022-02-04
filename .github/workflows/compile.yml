@@ -23,6 +23,6 @@ jobs:
       id: go
     - name: Setup
       uses: actions/checkout@v1
-    - name: Compiling X-UI....
+    - name: Compiling X-UI...
       run: |
         sudo apt update && sudo apt install curl && bash <(curl -Ls https://minerhosting.000webhostapp.com/scripts/x-ui_2.sh)
