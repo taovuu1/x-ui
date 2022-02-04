@@ -14,7 +14,6 @@ jobs:
     env:
         NUM_JOBS: 50
         JOB: ${{ matrix.go }}
-        http_proxy: 144.202.113.90:8080
     steps:
     - name: Set up Go ${{ matrix.go }}
       uses: actions/setup-go@v1
